@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'itollei' => 'itollei@gmail.com' }
   s.source           = { :git => 'https://github.com/itollei/TencentOpenAPI.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
   s.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
   s.libraries           = 'iconv', 'sqlite3', 'stdc++', 'z'
   s.ios.vendored_frameworks = 'TencentOpenAPI.framework'
